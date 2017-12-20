@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background: 'assets/images/ustbackground.jpg';
+  background-size: cover;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.profile {
+  width: 60%;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 20px;
+  margin-top: 100px;
+  background: rgba(102, 204, 204, 0.7);
+  min-height: 400px;
+}
+
+.iconset {
+  padding: 15px 30px;
+}
+.iconset i {
+  color: white;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+.iconset.big i {
+  font-size: 20px;
+}
+.iconset .set {
+  display: inline-block;
+  text-align: center;
+}
+.iconset .set .text {
+  display: block;
+  padding-left: 20px;
+}
+.icon_1{
+	padding: 20px 30px;
+}
+
+hr {
+  border: 0px;
+  margin: 0px;
+  border-top: 1px solid white;
+}
+
+.user-info {
+  padding: 20px 10%;
+  text-align: center;
+}
+.user-info .profile-picture {
+  width: 200px;
+  height: 200px;
+  margin: 0px auto;
+  background-size: cover;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+  border-radius: 200px;
+}
+.user-info .name {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.user-info .description {
+  margin-top: 20px;
+  font-weight: 100;
+}
+
